@@ -1,0 +1,57 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#header{
+    background-color:aliceblue;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    color:black;
+}
+h1 {
+    vertical-align:middle;
+    color:black;
+    font-weight: bold;
+}
+
+
+.row {
+    margin:10px 20px;
+    padding:5px;
+}
+
+
+#results {
+    margin: 30px 20px 10px 0px;
+
+}
+
+
+.person-row{
+    margin: 10px 0px;
+    padding: 5px;
+    background-color:cornflowerblue;
+    width: 100%;
+    float: left;
+}
+
+.person-row img {
+    border-radius: 40px;
+    float: left;
+    margin-right:25px;
+}
+
+
+.personal-info {
+    float:left;
+}
+
+.person-row > button {
+    float:right;
+    width:100px;
+    height:40px;
+    
+
+}
